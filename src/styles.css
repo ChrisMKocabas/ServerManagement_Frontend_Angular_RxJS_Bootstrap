@@ -1,1 +1,162 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import "node_modules/angular-notifier/styles";
+
+
+body {
+  background: #f0f7ff;
+  margin-top: 20px;
+}
+
+.root-container{
+  width: 90%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.table-title {
+  margin-bottom: 1rem;
+  background-color: #adabab;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  min-width:150px;  /* Adjust the width as needed */
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  min-width:150px; /* Adjust the width as needed */
+
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  max-width:150px;  /* Adjust the width as needed */
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.table-responsive {
+  overflow-x:auto;
+  background-color: #fff;
+}
+
+.table {
+  font-size: 14px;
+  width: 100%;
+  max-width: 100%; /* Make the table responsive */
+  background-color: #fff;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  white-space: nowrap;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.selectpicker {
+  height: 40px; /* Adjust the height as needed */
+}
+
+/* Add server modal */
+#addEmployeeModal .modal-dialog {
+  max-width: 500px;
+}
+
+#addEmployeeModal .modal-content {
+  padding: 20px;
+}
+
+#addEmployeeModal .modal-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+}
+
+#addEmployeeModal .modal-title {
+  margin: 0;
+}
+
+#addEmployeeModal .modal-body {
+  padding-top: 20px;
+}
+
+#addEmployeeModal .form-group {
+  margin-bottom: 20px;
+}
+
+#addEmployeeModal label {
+  font-weight: bold;
+}
+
+#addEmployeeModal input[type="text"],
+#addEmployeeModal select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+#addEmployeeModal .modal-footer {
+  border-top: none;
+  padding-top: 20px;
+  text-align: right;
+}
+
+#addEmployeeModal #closeModal {
+  margin-right: 10px;
+}
+
+#addEmployeeModal .btn-success {
+  min-width: 80px;
+}
+

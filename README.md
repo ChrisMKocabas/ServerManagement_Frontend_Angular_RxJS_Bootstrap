@@ -1,5 +1,7 @@
 # Server Management System - Frontend - Angular - Bootstrap - RxJS
 
+<img width="1539" alt="Screenshot 2023-07-08 at 6 00 11 PM" src="https://github.com/ChrisMKocabas/ServerManagement_Frontend_Angular_RxJS_Bootstrap/assets/75855099/405beaef-96cd-4fea-b7c1-24b69dab70b5">
+
 ## Description
 
 The project is an Angular frontend that interacts with a Java Spring Boot backend. It provides a user interface for managing servers and performing server-related operations. The frontend adopts a reactive approach using RxJS extensively for handling asynchronous data streams and state management.
